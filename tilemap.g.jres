@@ -262,30 +262,6 @@
         "tilemapTile": true,
         "displayName": "myTile41"
     },
-    "tile45": {
-        "data": "hwQQABAAAADu7u7//+6IiP///+/+7+6I7u7+/+7+/o7+///u7+7/j//v7u7v7uiP7u/+///uiI7////u7u+IiO7u7u7u/u+Iv//7/v/u/4j//////+7+jv/v//v///6Ov////7+P+I7//7///4i47u///v//iIjo//v//+/4ju/////7/4iI6A==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile43"
-    },
-    "tile46": {
-        "data": "hwQQABAAAACIiIiPiIiIiIiI+I+IiIiIiPj4iIiIiIiIiP+IiIiIiIiIiIiI+IjoiIiIiIj4/+6IiIiI+I+I7oiIiIiPiOiOiPiIiIiI746I+IiIiOjviIj4iIiI/u+I7u7u7u7/7oju7v7//++OiP///+7+746I7u7u7u7+joju/v/v/+6OiA==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile44"
-    },
-    "tile47": {
-        "data": "hwQQABAAAABoZmiGiIiIiFZliIaIiIiIVWWGhoiIiIhVZoaGiIiIiFZliIaI+IiIVmWIhoj4/4hoZYjm+I+IiGiIaOaOiIiIiGZm7u+IiIiIaOj+/46IiGhmiP7//46IhmiG6P/+7u+GiPaI7v7u/2aGaOj+///vZmZo7v/u7u5mZmju/////w==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile45"
-    },
-    "tile38": {
-        "data": "hwQQABAAAABmZoiI7v//72ZmiIj+7+7vZoaIiP7///9mhoaI7u7u7mZmhoju7v7vZmZmiO7///9mhoZo/u/u7maGhuju7u7uZoaI6O6///tmiIjm/////2ZoiPa///7/ZmiI9v////tmiGj2//v//2aIaP//7//+hohm/v//v/+GZoj/v////w==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile36"
-    },
     "tile48": {
         "data": "hwQQABAAAACIiIiIiIiIiPj4/4iIiIiIiP+IiPiPiIiIj4iIiP+PiIiIiI/4iIiI+P+IiI+IiIiI+I/4iI+IiIiIj4iI+P+PiIiIiIj4iIiIiPiIiI+IiIiIiIiIj4iI+IiIj4iIiIj4iIiIiPiPiPhohvj/j4iI+GZmiI+IiIhoZmaIiIiIiA==",
         "mimeType": "image/x-mkcd-f4",
@@ -293,16 +269,40 @@
         "displayName": "myTile46"
     },
     "tile49": {
-        "data": "hwQQABAAAACIiIiIiIiIiPj4/4iIiIiIiP+IiPiPiIiIj4iIiG9mFoiIiI/4VhUR+P+IiGYRVWaI+I/4ZlFlZoiIj4hWYWZmiIiIaFZlZmaIiPhoVWZmZoiIiGhVZmZm+IiIH1FmZmb4iIgYZWZmZviIiBhlZmZm+IiIGGFmZmaIiIhoYWZmZg==",
+        "data": "hwQQABAAAACIiIiIiIiIiPj4/4iIiIiIiP+IiPiPiIiIj4iIiG9mFoiIiI/4VhUR+P+IiGYRVWaI+I/4ZlFlZoiIj4hWYWZmiIiIaFZlVmWIiPhoVWZVZoiIiGhVZmVm+IiIH1EWZWb4iIgYZWZlZviIiBhlZlFm+IiIGGFmVmaIiIhoYWYWZQ==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
         "displayName": "myTile47"
     },
     "tile50": {
-        "data": "hwQQABAAAACIiIhoYWZmZviIiGhlZmZm+IiIaGVmZmb4iIhoYWZmZviIiG9RZmZmiIiIaBFmZmaIiPhoVmVmZoiIiGhWVWZmiIiPiGYVZmaI+I/4ZlVmZvj/iIhmVmVmiIiIj/hWEWaIj4iIiG8WZYj/iIj4jxZR+Pj/iIiIaBaIiIiIiIiIaA==",
+        "data": "hwQQABAAAACIiIhoYWZmZviIiGhlZmZm+IiIaGVmZmb4iIhoYWZmFfiIiG9RZmZliIiIaBFmFmWIiPhoVmVWZYiIiGhWVWZliIiPiGYVZmWI+I/4ZlVmZfj/iIhmVmVliIiIj/hWEWaIj4iIiG8WZYj/iIj4jxZR+Pj/iIiIaBaIiIiIiIiIaA==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
         "displayName": "myTile48"
+    },
+    "tile47": {
+        "data": "hwQQABAAAABoZmiGiIiIiFZliIaIiIiIVWWGhoiIiIhVZoaGiIiIiFZliIaI+IiIVmWIhoj4/4hoZYjW+I+IiGiIaOaOiIiIiGZm3e+IiIiIaIj+/4iIiGhmiIj/j4iIhmiGiP/+iIiGiPaI6P2OiGaGaIiI+P+IZmZo7v/e3e1mZmjd/////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile45"
+    },
+    "tile46": {
+        "data": "hwQQABAAAACIiIiPiIiIiIiI+I+IiIiIiPj4iIiIiIiIiP+IiIiIiIiIiIiI+IjoiIiIiIj4/92IiIiI+I+I7YiIiIiPiOiNiPiIiIiI746I+IiIiIjviIj4iIiI+N+IiIiIiIj43YiIiIiIiO+OiP///979742I3d3t7u7+joju/v/v/+6OiA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile44"
+    },
+    "tile38": {
+        "data": "hwQQABAAAABmZYiI7f//71VmiIj+3+7fZYaIiP7///9mhoaI3t3d7mZmhoju7v7vZmZmiO7///9mhoZo/u/d3WaGhuje7u7uZoaI6O2///tmiIjm/////2ZoiPa///7/ZmiI9v////tmiGj2//v//2aIaP//7//+hohm/v//v/+GZoj/v////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile36"
+    },
+    "tile45": {
+        "data": "hwQQABAAAADe3e3//+2IiP///+/+3+6I3e3+/+7+/Y7+///u7+7/j//v3u3v3eiP7e/+///eiI7////u7u+IiO7e3d3t/u+Iv//7/v/u/4j//////979jv/v//v///2Ov////7+P+I7//7///4i47u///v//iIjY//v//+/4jt/////7/4iI6A==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile43"
     },
     "level1": {
         "id": "level1",
