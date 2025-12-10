@@ -249,44 +249,6 @@ eeeecccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee4eeeeeeeeeeeeeeeeeeeeeeee
 eeeeeeeeccccceeeeeeeeeeeeeeeeeeeeeeee4eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccc77711117788111111177777777777777777777787117778888
 eeeeeeeeeeeeeccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee4eeeeeeeeecccc7771771181111111111111111111111111111111111778881
 `;
-            case "image7":
-            case "emoNpc":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . f f f f . . . . . . 
-. . . . . f c f 2 2 f . . . . . 
-. . . . f f c f f f 2 f . . . . 
-. . . . c f c 2 f 2 f 2 f . . . 
-. . . . c f f c 2 f c f f . . . 
-. . . . c f 6 d c c c f f . . . 
-. . . . . c d d d c c f f . . . 
-. . . . . . f e e f c c f . . . 
-. . . . . f f f f f f c f . . . 
-. . . . f f c f f c f f f . . . 
-. . . . f c f f f f c f . . . . 
-. . . d d f f f f f f d d . . . 
-. . . . . f c f c c f . . . . . 
-. . . . . c c c f c c . . . . . 
-. . . . . f f f f f f . . . . . 
-`;
-            case "image6":
-            case "sillyNPC":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . f f f f . . . . . . 
-. . . . . f 4 1 4 4 f . . . . . 
-. . . . f 1 4 1 1 1 4 f . . . . 
-. . . f 4 1 d 4 1 4 1 4 f . . . 
-. . . f 4 1 f d 4 f 4 1 f . . . 
-. . . f 4 1 6 d d 6 4 1 f . . . 
-. . . f 1 4 d d d d 4 1 f . . . 
-. . . f 4 3 2 e e 2 3 4 f . . . 
-. . . f 3 a a 7 7 a a 3 f . . . 
-. . . f a a c 7 7 c a a f . . . 
-. . . . a c a 7 7 a c a . . . . 
-. . . d d a a 7 7 a a d d . . . 
-. . . . . f c f c c f . . . . . 
-. . . . . c c c f c c . . . . . 
-. . . . . f f f f f f . . . . . 
-`;
             case "image5":
             case "notSonicBcThatWouldBeCopyrightInfringement":return img`
 . . . . . . . . . . . . . . . . 
@@ -324,25 +286,6 @@ eeeeeeeeeeeeeccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 . . . . . 8 7 8 7 7 8 . . . . . 
 . . . . . 7 7 7 8 7 7 . . . . . 
 . . . . . 8 8 8 8 8 8 . . . . . 
-`;
-            case "image9":
-            case "normalNPC":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . f f f f . . . . . . 
-. . . . . f f f f f f . . . . . 
-. . . . f f f f f f f f . . . . 
-. . . f f f e f f f f f f . . . 
-. . . f f f f e f f f f f . . . 
-. . . f f f 7 e e 7 f f f . . . 
-. . . . f f e e e e f f . . . . 
-. . . . . f f c c f f . . . . . 
-. . . . . 8 8 8 8 8 8 . . . . . 
-. . . . 8 8 c 8 8 c 8 8 . . . . 
-. . . . 8 c 8 8 8 8 c 8 . . . . 
-. . . e e 8 8 8 8 8 8 e e . . . 
-. . . . . a b a b b a . . . . . 
-. . . . . b b b a b b . . . . . 
-. . . . . a a a a a a . . . . . 
 `;
             case "image1":
             case "kikiFront":return img`
@@ -420,24 +363,62 @@ eeeeeeeeeeeeeccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 . . . . . . 8 7 7 . . . . . . . 
 . . . . . . f f f . . . . . . . 
 `;
-            case "image10":
-            case "myImage":return img`
-. . f f f f . . . . f f f f . . 
-. f 9 9 2 f f f f f f 2 9 9 f . 
-f 9 9 2 f 9 9 9 9 9 9 f 2 9 9 f 
-f 9 2 f 9 9 9 9 9 9 9 9 f 2 9 f 
-f 9 9 f 9 9 f f f f 9 9 f 9 9 f 
-f 9 9 f 9 f 7 d d 7 f 9 f 9 9 f 
-f 9 f 9 9 f f d d f f 9 9 f 9 f 
-f 9 9 f 9 f d d d d f 9 f 9 9 f 
-. f 9 9 f f f e e f f f 9 9 f . 
-. f 9 9 f d b 9 9 b d f 9 9 f . 
-f 9 9 f d d b b 9 b d d f 9 9 f 
-. f f d d f b b 9 b f d d f f . 
-. . f f f f a a a a f f f f . . 
-. . . . . f a a a a f . . . . . 
-. . . . . f d d e d f . . . . . 
-. . . . . f a a c a f . . . . . 
+            case "image6":
+            case "sillyNPC":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . f 4 1 4 4 f . . . . . 
+. . . . f 1 4 1 1 1 4 f . . . . 
+. . . f 4 1 d 4 1 4 1 4 f . . . 
+. . . f 4 1 f d 4 f 4 1 f . . . 
+. . . f 4 1 6 d d 6 4 1 f . . . 
+. . . f 1 4 d d d d 4 1 f . . . 
+. . . f 4 3 2 e e 2 3 4 f . . . 
+. . . f 3 a a 7 7 a a 3 f . . . 
+. . . f a a c 7 7 c a a f . . . 
+. . . . a c a 7 7 a c a . . . . 
+. . . d d a a 7 7 a a d d . . . 
+. . . . . f c f c c f . . . . . 
+. . . . . c c c f c c . . . . . 
+. . . . . f f f f f f . . . . . 
+`;
+            case "image7":
+            case "emoNpc":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . f c f 2 2 f . . . . . 
+. . . . f f c f f f 2 f . . . . 
+. . . . c f c 2 f 2 f 2 f . . . 
+. . . . c f f c 2 f c f f . . . 
+. . . . c f 6 d c c c f f . . . 
+. . . . . c d d d c c f f . . . 
+. . . . . . f e e f c c f . . . 
+. . . . . f f f f f f c f . . . 
+. . . . f f c f f c f f f . . . 
+. . . . f c f f f f c f . . . . 
+. . . d d f f f f f f d d . . . 
+. . . . . f c f c c f . . . . . 
+. . . . . c c c f c c . . . . . 
+. . . . . f f f f f f . . . . . 
+`;
+            case "image9":
+            case "normalNPC":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . f f f f f f . . . . . 
+. . . . f f f f f f f f . . . . 
+. . . f f f e f f f f f f . . . 
+. . . f f f f e f f f f f . . . 
+. . . f f f 7 e e 7 f f f . . . 
+. . . . f f e e e e f f . . . . 
+. . . . . f f c c f f . . . . . 
+. . . . . 8 8 8 8 8 8 . . . . . 
+. . . . 8 8 c 8 8 c 8 8 . . . . 
+. . . . 8 c 8 8 8 8 c 8 . . . . 
+. . . e e 8 8 8 8 8 8 e e . . . 
+. . . . . a b a b b a . . . . . 
+. . . . . b b b a b b . . . . . 
+. . . . . a a a a a a . . . . . 
 `;
         }
         return null;

@@ -1,3 +1,6 @@
+namespace SpriteKind {
+    export const NPC = SpriteKind.create()
+}
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
     mySprite,
@@ -7,15 +10,27 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     )
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile63`, function (sprite, location) {
-    tiles.setCurrentTilemap(tilemap`level`)
+    tiles.setCurrentTilemap(tilemap`main`)
     tiles.placeOnTile(mySprite, tiles.getTileLocation(8, 15))
+    let mySprite2 = sprites.create(assets.image`sillyNPC`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite2, tiles.getTileLocation(8, 12))
+    let mySprite3 = sprites.create(assets.image`emoNpc`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite3, tiles.getTileLocation(10, 12))
+    let mySprite4 = sprites.create(assets.image`normalNPC`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite4, tiles.getTileLocation(10, 13))
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile60`, function (sprite, location) {
-    tiles.setCurrentTilemap(tilemap`level`)
+    tiles.setCurrentTilemap(tilemap`main`)
     tiles.placeOnTile(mySprite, tiles.getTileLocation(0, 12))
+    let mySprite2 = sprites.create(assets.image`sillyNPC`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite2, tiles.getTileLocation(8, 12))
+    let mySprite3 = sprites.create(assets.image`emoNpc`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite3, tiles.getTileLocation(10, 12))
+    let mySprite4 = sprites.create(assets.image`normalNPC`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite4, tiles.getTileLocation(10, 13))
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile4`, function (sprite, location) {
-    tiles.setCurrentTilemap(tilemap`level5`)
+    tiles.setCurrentTilemap(tilemap`inside`)
     tiles.placeOnTile(mySprite, tiles.getTileLocation(5, 4))
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -40,8 +55,14 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile36`, function (sprite, 
     tiles.placeOnTile(mySprite, tiles.getTileLocation(5, 5))
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile59`, function (sprite, location) {
-    tiles.setCurrentTilemap(tilemap`level`)
+    tiles.setCurrentTilemap(tilemap`main`)
     tiles.placeOnTile(mySprite, tiles.getTileLocation(7, 8))
+    let mySprite2 = sprites.create(assets.image`sillyNPC`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite2, tiles.getTileLocation(8, 12))
+    let mySprite3 = sprites.create(assets.image`emoNpc`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite3, tiles.getTileLocation(10, 12))
+    let mySprite4 = sprites.create(assets.image`normalNPC`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite4, tiles.getTileLocation(10, 13))
 })
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     animation.runImageAnimation(
@@ -52,11 +73,11 @@ controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     )
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile61`, function (sprite, location) {
-    tiles.setCurrentTilemap(tilemap`level2`)
+    tiles.setCurrentTilemap(tilemap`beach`)
     tiles.placeOnTile(mySprite, tiles.getTileLocation(7, 1))
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile62`, function (sprite, location) {
-    tiles.setCurrentTilemap(tilemap`level0`)
+    tiles.setCurrentTilemap(tilemap`forest`)
     tiles.placeOnTile(mySprite, tiles.getTileLocation(15, 7))
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile31`, function (sprite, location) {
@@ -65,14 +86,26 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile31`, function (sprite, 
     tiles.placeOnTile(mySprite, tiles.getTileLocation(5, 5))
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile64`, function (sprite, location) {
-    tiles.setCurrentTilemap(tilemap`level`)
+    tiles.setCurrentTilemap(tilemap`main`)
     tiles.placeOnTile(mySprite, tiles.getTileLocation(7, 12))
+    let mySprite2 = sprites.create(assets.image`sillyNPC`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite2, tiles.getTileLocation(8, 12))
+    let mySprite3 = sprites.create(assets.image`emoNpc`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite3, tiles.getTileLocation(10, 12))
+    let mySprite4 = sprites.create(assets.image`normalNPC`, SpriteKind.NPC)
+    tiles.placeOnTile(mySprite4, tiles.getTileLocation(10, 13))
 })
 let mySprite: Sprite = null
 scene.setBackgroundColor(15)
 mySprite = sprites.create(assets.image`kikiFront`, SpriteKind.Player)
 mySprite.z = 1
-tiles.setCurrentTilemap(tilemap`level`)
+tiles.setCurrentTilemap(tilemap`main`)
 scene.cameraFollowSprite(mySprite)
 controller.moveSprite(mySprite)
 tiles.placeOnTile(mySprite, tiles.getTileLocation(7, 8))
+let mySprite2 = sprites.create(assets.image`sillyNPC`, SpriteKind.NPC)
+tiles.placeOnTile(mySprite2, tiles.getTileLocation(8, 12))
+let mySprite3 = sprites.create(assets.image`emoNpc`, SpriteKind.NPC)
+tiles.placeOnTile(mySprite3, tiles.getTileLocation(10, 12))
+let mySprite4 = sprites.create(assets.image`normalNPC`, SpriteKind.NPC)
+tiles.placeOnTile(mySprite4, tiles.getTileLocation(10, 13))
