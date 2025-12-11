@@ -2,7 +2,8 @@
     "name": "RPG",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "arcade-text": "github:AqeeAqee/arcade-text#v1.5.2"
     },
     "files": [
         "main.blocks",
@@ -24,7 +25,7 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj",
+    "preferredEditor": "blocksprj",
     "palette": [
         "#000000",
         "#f5edba",
