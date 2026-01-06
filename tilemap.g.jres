@@ -466,33 +466,6 @@
         ],
         "displayName": "inside"
     },
-    "level2": {
-        "id": "level2",
-        "mimeType": "application/mkcd-tilemap",
-        "data": "MTAxMDAwMTAwMDA0MDMwMzA0MDMwNDAzMTIwMTAzMDMwMzAzMDQwMzA0MDMwZjAzMDMwZTAzMDQwMjAxMDMwZjA0MDMwMzAzMDQwNDA0MDQwMzA0MDQwMzAyMDEwMzA0MDMwZTAzMDQwZjAzMDMwMzAzMDMwMzA0MDIwMTA0MDQwMzAzMDMwNDA0MDQwZTAzMDQwZjAzMDMwMjAxMDMwZjAzMDMwMzBlMDQwMzA0MDMwMzAzMGUwMzA2MDUwNDAzMDMwNDAzMDMwMzA3MDcwNzA3MDcwNzA3MDgwODA3MDcwNzA3MDcwNzA3MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgxMDBhMDkwOTBhMDkwOTBjMDgwODA4MDgwODA4MDgwODBkMTExMTExMTExMTExMGIwOTA5MGEwYTA5MDkwYTA5MTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
-        "tileset": [
-            "myTiles.transparency16",
-            "myTiles.tile19",
-            "myTiles.tile20",
-            "myTiles.tile27",
-            "myTiles.tile28",
-            "myTiles.tile1",
-            "myTiles.tile4",
-            "myTiles.tile10",
-            "myTiles.tile16",
-            "myTiles.tile18",
-            "myTiles.tile31",
-            "myTiles.tile33",
-            "myTiles.tile35",
-            "myTiles.tile36",
-            "myTiles.tile29",
-            "myTiles.tile30",
-            "myTiles.tile32",
-            "myTiles.tile34",
-            "myTiles.tile65"
-        ],
-        "displayName": "beach"
-    },
     "level3": {
         "id": "level3",
         "mimeType": "application/mkcd-tilemap",
@@ -522,6 +495,33 @@
             "myTiles.tile62"
         ],
         "displayName": "forest"
+    },
+    "level2": {
+        "id": "level2",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMzAwMTAwMDBmMDQwNDA0MDMwMzA0MDMwNDAzMTIwMTAzMDMwMzAzMDQwMzA0MDQwZjA0MDMwZjAzMDMwZTAzMDQwMjAxMDMwZjA0MDMwMzAzMDQwZTA0MDQwNDA0MDQwMzA0MDQwMzAyMDEwMzA0MDMwZTAzMDQwZjA0MDQwNDAzMDMwMzAzMDMwMzA0MDIwMTA0MDQwMzAzMDMwNDA0MDQwZTA0MDQwZTAzMDQwZjAzMDMwMjAxMDMwZjAzMDMwMzBlMDQwNDA0MDQwMzA0MDMwMzAzMGUwMzA2MDUwNDAzMDMwNDAzMDMwMzA3MDcwNzA3MDcwNzA3MDcwNzA3MDgwODA3MDcwNzA3MDcwNzA3MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgxMDBhMDkwOTBhMDkwOTBjMDgwODA4MDgwODA4MDgwODA5MGEwOTBkMTExMTExMTExMTExMGIwOTA5MGEwYTA5MDkwYTA5MTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMjIyMjIyMjIyMjAwMjIyMjIyMjIyMjIyMjIyMjAyMjAyMjIyMjIyMjIyMjIyMjIyMDAyMjIyMjIyMjIyMjIyMjIyMDIyMDIyMjIyMjIyMjIyMjIyMjIwMDIyMjIyMjIyMjIyMjIyMjIwMjIwMjIyMjIyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "myTiles.tile19",
+            "myTiles.tile20",
+            "myTiles.tile27",
+            "myTiles.tile28",
+            "myTiles.tile1",
+            "myTiles.tile4",
+            "myTiles.tile10",
+            "myTiles.tile16",
+            "myTiles.tile18",
+            "myTiles.tile31",
+            "myTiles.tile33",
+            "myTiles.tile35",
+            "myTiles.tile36",
+            "myTiles.tile29",
+            "myTiles.tile30",
+            "myTiles.tile32",
+            "myTiles.tile34",
+            "myTiles.tile65"
+        ],
+        "displayName": "beach"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
